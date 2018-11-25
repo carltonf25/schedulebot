@@ -76,7 +76,7 @@ rtm.on("message", message => {
     rtm.sendMessage(
       `Beep, boop! This is ScheduleBot. To schedule a message, use the \`--text\` and \`--send_time\` parameters, like so:` +
         "\n\n" +
-        `\`\`\`--text Hello, future Chimps! --send_time 10/26/2050 13:30\`\`\`` +
+        `\`\`\`--text Hello from the future! --send_time 10/26/2050 13:30\`\`\`` +
         "\n \n" +
         `To see your scheduled messages, simply ask \`show my scheduled messages\`.` +
         "\n \n" +
